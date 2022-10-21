@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link{
+  color: black;
+}
+
+
+
+/*topのCSS*/
+
+.top-contents{
+  margin:33px;
+}
+
+.top-body{
+  margin-left: 33px;
+  line-height: 66px;
+}
+
+/*indexのcss*/
+
+.index-body{
+  margin: 33px;
+}
+
+.destroy-message{
+  font-size: 12px;
+  color: green;
+  margin-left: 33px;
+  margin-bottom: 33px;
+}
+
+.index-main{
+  display: block;
+}
+
+.index-title{
+  display: inline-block;
+}
+
+.index-body{
+  display: inline-block;
+}
+
+.posted-title{
+  width: 190px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.posted-body{
+  width: 380px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.link-show{
+  padding-right: 8px;
+  font-size: 14px;
+}
+.link-edit{
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+.link-destroy{
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+
+
+/*newのcss*/
+
+.new-title{
+  margin: 16px 0;
+}
+
+.error_explanation{
+  width:430px;
+  margin-bottom: 15px;
+  border: solid 2px red;
+  background-color: #f5f5f5;
+}
+
+.error-count{
+  color: white;
+  padding-left: 10px;
+  background-color: #C9171E;
+}
+
+.error-message{
+  list-style-type: square;
+  font-size: 12px;
+  margin: 35px 100px; 
+}
+
+.new-subtitle{
+  margin-bottom: 10px;
+}
+
+.new-subbody{
+  margin-bottom: 10px;
+  display: block;
+}
+
+/*showのcss*/
+
+.show-contents{
+  margin: 33px 66px;
+}
+
+.success-message{
+  font-size: 12px;
+  color: green;
+}
+
+
+.show-text{
+  margin-bottom: 33px;
+}
+
+
+.link-others{
+  color: black;
+  margin-left: 33px; 
+  font-size: 14px;
+}
+
+/*editのcss*/
+
+.edit-contents{
+  margin: 33px;
+}
+
+.edit-subject{
+  font-size: 25px;
+  color: #333333;
+}
+
+.edit-content{
+  display: block;
+  margin-bottom: 8px;
+}
+
+.edit-name{
+  color: #333333;
+  font-size: 12px;
+}
+
+.update-btn{
+  margin-bottom: 8px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
